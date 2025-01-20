@@ -1,0 +1,1 @@
+This React component uses the wrong lifecycle method to update the state, leading to unexpected behavior.  `componentWillReceiveProps` is deprecated, and using it with `this.setState` may result in infinite loops or unexpected renders.
